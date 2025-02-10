@@ -1,0 +1,23 @@
+.li:hover{
+    color: #A74C6D ;
+}
+.li:active{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+.menu{
+    height: 70vh;
+    animation: scaling 0.3s  ;
+    -webkit-animation: scaling 0.3s  ;
+}
+@keyframes scaling {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 70vh;
+    }
+}
